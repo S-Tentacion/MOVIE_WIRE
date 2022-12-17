@@ -4,7 +4,7 @@ import AppBar from 'components/UI/AppBar';
 import HamburgerButton from 'components/UI/HamburgerButton';
 import SearchBar from 'containers/SearchBar';
 import DarkModeToggle from 'containers/DarkModeToggle';
-import TheUser from 'containers/TheUser';
+// import TheUser from 'containers/TheUser';
 
 const BurgerHeader = ({ openMenu }) => (
   <>
@@ -15,7 +15,7 @@ const BurgerHeader = ({ openMenu }) => (
         <DarkModeToggle
           id='mobile'
           className='left-margin' />
-        <TheUser />
+        {/* <TheUser /> */}
       </div>
     </AppBar>
     <style jsx>{`
