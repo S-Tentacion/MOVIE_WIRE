@@ -1,5 +1,5 @@
 
-# next-movies
+# MOVIE_WIRE
 
 This is a Movies App built using Next.js, React and [The Movie Database (TMDB)](https://www.themoviedb.org/) API. 
 
