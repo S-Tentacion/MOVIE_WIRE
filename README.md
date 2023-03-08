@@ -5,16 +5,16 @@ This is a Movies App built using Next.js, React and [The Movie Database (TMDB)](
 
 ## Demo
 
-A [live deployment](https://movies.zaps.dev) of this app is available to try it out.
+A [live deployment](https://moviewire.vercel.app/) of this app is available to try it out.
 
 
 ## Installation 
 
-Clone and install the dependencies for `next-movies` locally:
+Clone and install the dependencies for `MOVIE_WIRE` locally:
 
 ```bash 
-  git clone https://github.com/tastejs/next-movies.git
-  cd next-movies 
+  git clone https://github.com/S-Tentacion/MOVIE_WIRE.git
+  cd MOVIE_WIRE
   npm install
 ```
 
