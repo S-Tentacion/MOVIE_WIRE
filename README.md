@@ -1,7 +1,7 @@
 
 # MOVIE_WIRE
 
-This is a Movies App built using Next.js, React and [The Movie Database (TMDB)](https://www.themoviedb.org/) API. 
+This is a Movies App built using Next.js, and [The Movie Database (TMDB)](https://www.themoviedb.org/) API. 
 
 ## Demo
 
@@ -36,21 +36,14 @@ Clone and install the dependencies for `MOVIE_WIRE` locally:
 Built with:
 
 * Next.js
-* Redux and Redux Thunk
+* Redux Thunk
 * react-glider
 * react-lazyload
 * react-modal-video
 * react-scroll
 * react-select-search
 * redaxios
-* use-dark-mode
-* @artsy/fresnel
-* @loadable/component
-
-## next/image
-
-In most cases, I strongly recommend using the [next/image](https://nextjs.org/docs/api-reference/next/image) component for optimizing how you load images. For the MOVIE_WIRE app, there are a few app-specific reasons we currently don't use the component. Using `react-lazyload`, we lazy-load the entire `MovieListItem` component (for example), where elements like the movie name and star ratings don't load until they get near the viewport. This behavior is currently not possible with next/image. In the future, there may be more "Suspense"-y ways of approaching images in React/Next, which would make this type of pattern more first-class. Until then, check out our approach, but you'll likely be otherwise be able to make next/image work for you.
-  
+* use-dark-mode  
   
 ## Authors
 
